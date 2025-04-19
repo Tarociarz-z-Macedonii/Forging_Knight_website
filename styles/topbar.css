@@ -87,15 +87,16 @@
 
 @media (max-width: 1250px) {
   .logo {
-		margin-left: 420px;
-		margin-right: 250px;
-		justify-content: left;
+    margin: 0px;
+		justify-content: center;
   }
-}
-
-@media (max-width: 820px) {
-  .logo {
-		display: none;
-  }
+	.logo img{
+		z-index: 16;
+		margin-top: 80px;
+		width: 200px;
+	}
+	.coming-soon p{
+		margin-top: 350px;
+	}
 }
 
