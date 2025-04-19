@@ -19,8 +19,6 @@
 	z-index: 25;
 	margin: 0px;
 	padding: 0px;
-	display: block;
-	padding: 0px;
 	width: 400px;
 	image-rendering: pixelated;
 }
@@ -64,7 +62,7 @@
 	align-items: center;
 }
 
-.topbar button{
+.topbar button, .creators button:hover{
 	transition: color 0.1s;
 }
 .right-topbar path{

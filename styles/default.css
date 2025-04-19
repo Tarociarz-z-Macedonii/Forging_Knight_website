@@ -3,6 +3,7 @@ a{
 	text-decoration: none;
 }
 .img-button{
+	display: flex;
 	background-color: transparent;
 	border: none;
 	margin: 0px;
