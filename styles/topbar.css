@@ -25,6 +25,8 @@
 	image-rendering: pixelated;
 }
 .logo{
+	z-index: 20;
+	height: 160px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -85,10 +87,11 @@
 	margin-right: 3px;
 }
 
-@media (max-width: 1230px) {
+@media (max-width: 1250px) {
   .logo {
 		margin-left: 420px;
 		margin-right: 250px;
+		justify-content: left;
   }
 }
 

@@ -3,10 +3,9 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 180px;
 }
 .comming-soon p{
-	margin-top: 0px;
+	margin-top: 100px;
 }
 .video-figure{
 	width: 100%;
@@ -68,8 +67,9 @@
 	margin-top: 100px;
 	font-size: 18px;
 }
+
 @media (max-width: 820px) {
 	.comming-soon{
-		margin-top: 340px;
+		margin-top: 160px;
 	}
 }
