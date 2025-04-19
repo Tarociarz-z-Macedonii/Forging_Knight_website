@@ -1,0 +1,15 @@
+.discord-pixelart{
+	width: 250px;
+	image-rendering: pixelated;
+}
+.discord{
+	width: 100%;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.discord-join{
+	width: 250px;
+}

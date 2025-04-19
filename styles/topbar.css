@@ -1,0 +1,100 @@
+.topbar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 20;
+	padding: 0px 10px;
+}
+.topbar a{
+	height: 100%;
+}
+
+.logo img{
+	z-index: 25;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	padding: 0px;
+	width: 400px;
+	image-rendering: pixelated;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topbar-below{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.3));
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 180px;
+	position: absolute;
+	z-index: 16;
+}
+.avabile-on-itchio{
+	height: 100%;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	align-self: center;
+}
+.itchio-image{
+	width: 190px;
+}
+
+
+.right-topbar, .left-topbar{
+	display: flex;
+	column-gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+.right-topbar *, .left-topbar *{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.topbar button{
+	transition: color 0.1s;
+}
+.right-topbar path{
+	transition: fill 0.1s;;
+}
+.topbar button:hover{
+	color: rgb(255, 36, 73);
+}	
+.right-topbar button:hover path{
+  fill: rgb(255, 36, 73);
+}	
+
+.right-topbar * img{
+	filter: brightness(0) invert(1);
+}
+.discord-top{
+	margin-right: 5px;
+}
+.twitter-top{
+	margin-right: 3px;
+}
+
+@media (max-width: 1230px) {
+  .logo {
+		margin-left: 420px;
+		margin-right: 250px;
+  }
+}
+
+@media (max-width: 820px) {
+  .logo {
+		display: none;
+  }
+}
+

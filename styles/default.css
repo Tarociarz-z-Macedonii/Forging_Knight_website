@@ -1,0 +1,61 @@
+a{
+	margin: 0px;
+	text-decoration: none;
+}
+.img-button{
+	background-color: transparent;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+button{
+	cursor: pointer;
+	font-family: "Pixelify Sans", sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+body{
+	background-size: cover; /* or 'contain' depending on your needs */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+	margin: 0px;
+	padding: 0px;
+}
+body::before {
+  content: "";
+  position: fixed; /* Covers viewport without repaints */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	background-color: green;/*
+	background-image: 
+	url(/images/background2.png);
+	filter: contrast(1.0) brightness(0.6) saturate(1.1);*/
+  z-index: -1;
+}
+h2, h1, p, figure{
+	font-family: "Pixelify Sans", sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+}
+h2{
+	font-size: 50px;
+}
+h1{
+	font-size: 80px;
+	margin-bottom: 40px;
+}
+p{
+	font-weight: 400;
+	font-size: 25px;
+}
