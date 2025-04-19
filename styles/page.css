@@ -1,3 +1,11 @@
+hr{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 20%;
+	border: 1px solid rgb(0, 128, 0);
+	border-radius: 1000px;
+	background-color: linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));;
+}
+
 .comming-soon{
 	display: flex;
 	flex-direction: column;

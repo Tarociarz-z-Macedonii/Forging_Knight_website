@@ -21,6 +21,9 @@ section{
 	justify-content: center;
 	align-items: center;
 }
+html{
+	background-color: rgba(0,0,0,0.7);
+}
 body{
 	background-size: cover; /* or 'contain' depending on your needs */
 	background-position: center;
